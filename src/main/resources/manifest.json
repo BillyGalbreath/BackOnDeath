@@ -1,0 +1,14 @@
+{
+  "Group": "${group}",
+  "Name": "${artifact}",
+  "Version": "${version}",
+  "Main": "${group}.${artifact}",
+  "Description": "${description}",
+  "Website": "https://hytale.pl3x.net",
+  "Authors": [
+    {
+      "Name": "BillyGalbreath"
+    }
+  ],
+  "IncludesAssetPack": true
+}
