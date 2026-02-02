@@ -43,7 +43,8 @@ public class PlayerDeathSystem extends DeathSystems.OnDeathSystem {
     }
 
     @Override
-    public @Nullable Query<EntityStore> getQuery() {
+    @Nullable
+    public Query<EntityStore> getQuery() {
         return Query.and(Player.getComponentType());
     }
 }
